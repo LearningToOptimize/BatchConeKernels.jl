@@ -1,3 +1,3 @@
 var documenterSearchIndex = {"docs":
-[{"location":"#BatchPOIKernels.jl","page":"Home","title":"BatchPOIKernels.jl","text":"","category":"section"}]
+[{"location":"#BatchConeKernels.jl","page":"Home","title":"BatchConeKernels.jl","text":"","category":"section"}]
 }
