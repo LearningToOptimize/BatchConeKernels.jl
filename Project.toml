@@ -1,17 +1,16 @@
-name = "BatchPOIKernels"
+name = "BatchConeKernels"
 uuid = "afeb8112-68be-11f0-3c37-57b6e69465f2"
 authors = ["Klamkin", "Michael <michael@klamkin.com> and contributors"]
 version = "1.0.0-DEV"
 
 [deps]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
-ParametricOptInterface = "0ce4ce61-57bf-432b-a095-efac525d185e"
 
 [weakdeps]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 
 [extensions]
-BPKChainRulesCore = "ChainRulesCore"
+BCKChainRulesCore = "ChainRulesCore"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

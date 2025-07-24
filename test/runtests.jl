@@ -1,2 +1,2 @@
-using BatchPOIKernels
+using BatchConeKernels
 using Test

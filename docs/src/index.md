@@ -1,5 +1,5 @@
-# BatchPOIKernels.jl
+# BatchConeKernels.jl
 
 ```@autodocs
-Modules = [BatchPOIKernels]
+Modules = [BatchConeKernels]
 ```

@@ -1,12 +1,12 @@
 using Documenter
-using BatchPOIKernels
+using BatchConeKernels
 
 
 include("definitions.jl")
 
 makedocs(
-    modules=[BatchPOIKernels],
-    sitename = "BatchPOIKernels.jl",
+    modules=[BatchConeKernels],
+    sitename = "BatchConeKernels.jl",
     format = Documenter.HTML(;
         assets = ["assets/wider.css", "assets/redlinks.css"],
         mathengine = Documenter.MathJax3(Dict(
@@ -26,6 +26,6 @@ makedocs(
 # See "Hosting Documentation" and deploydocs() in the Documenter manual
 # for more information.
 deploydocs(
-    repo="github.com/LearningToOptimize/BatchPOIKernels.jl.git",
+    repo="github.com/LearningToOptimize/BatchConeKernels.jl.git",
     push_preview=true,
 )
