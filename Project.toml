@@ -5,6 +5,7 @@ version = "1.0.0-DEV"
 
 [deps]
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
 
 [weakdeps]
 ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
@@ -12,8 +13,18 @@ ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
 [extensions]
 BCKChainRulesCore = "ChainRulesCore"
 
+[compat]
+MathOptInterface = "1.42.0"
+OpenCL = "0.10.3"
+pocl_jll = "7.0.0"
+
 [extras]
+OpenCL = "08131aa3-fb12-5dee-8b74-c09406e224a2"
+pocl_jll = "627d6b7a-bbe6-5189-83e7-98cc0a5aeadd"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+MathOptSetDistances = "3b969827-a86c-476c-9527-bb6f1a8fbad5"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "MathOptInterface", "Random", "MathOptSetDistances", "OpenCL", "pocl_jll"]
